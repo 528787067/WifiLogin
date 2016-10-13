@@ -17,8 +17,8 @@ public class ParamsBean {
 	private static ParamsBean params;
 	
 	public static String PHONE_CODE = "4060";
-	//public static String WIFI_CODE = "1050";
-	public static String WIFI_CODE = "4060";
+	public static String WIFI_CODE = "1050";
+	//public static String WIFI_CODE = "4060";
 	
 	private ParamsBean(){
 		username = "zjlanhdxs000000kk";
