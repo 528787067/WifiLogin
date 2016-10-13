@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/image.xml" />
+    </issue>
+    <issue id="OldTargetApi">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/topbar.xml" />
+    </issue>
+    <issue id="TypographyEllipsis">
+        <ignore path="res/values/strings.xml" />
+    </issue>
+</lint>

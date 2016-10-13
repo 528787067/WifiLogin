@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WIFI 登陆</string>
+    
+    <string name="title_wifi">路由器登陆模式</string>
+    <string name="title_phone">手机登陆模式</string>
+    <string name="title_about">关于</string>
+    
+    <string name="input_text_username">账号： </string>
+    <string name="input_text_password">密码： </string>
+    <string name="input_text_mac">MAC：</string>
+    <string name="input_save_mag">记住账户密码</string>
+    
+    <string name="input_edit_username">宽带账号</string>
+    <string name="input_edit_password">账号密码</string>
+    <string name="input_edit_mac">路由 MAC 地址</string>
+    <string name="login_about">说明：单击 WiFi 图标可切换登陆模式</string>
+    
+    <string name="login">登陆</string>
+    <string name="logout">下线</string>
+    
+    <string name="dialog_title">提示</string>
+    <string name="dialog_msg">发送请求，请稍后...</string>
+    <string name="toast_input_not_full">请输入完整的信息后重试</string>
+    
+    <string name="exit_msg">退出后可能无法使用本软件对账号下线，如果需要下线可以关闭 WiFi后重新打开 WiFi即可，确定退出？</string>
+    <string name="exit_bn_quit">退出程序</string>
+    <string name="exit_bn_background">后台运行</string>
+    <string name="wifi_out">网络不好，您已经掉线，请重新登陆</string>
+    
+    <string name="runtime">运行时间： </string>
+    
+    <string name="about_author">
+		作者： 方块8\n版本： 1.0
+	</string>
+    <string name="about">
+       	关于：\n\n
+       	灵感来源：贴吧用户@“神ID般存在”的 Lili 客户端\n
+       	界面\tUI：模仿电信官方宽带登陆 App\n\n\n
+       	操作说明：\n\n
+       	1、WIFI 图标可以显示信号强度\n
+       	2、单击 WIFI 可以切换登陆模式\n
+       	3、路由器模式时手机连接路由器即可实现路由登陆\n
+       	4、路由器模式时如果提示网络不可用，请登陆路由重新获取动态 IP 后重试\n
+       	5、路由器模式时 MAC 地址填写的是路由器的 MAC 地址，具体登陆路由器查看\n
+       	6、手机登陆模式手机连接 ChinaNet-gdou 后即可登录
+    </string>
+    
+    <string name="hello_world">Hello world!</string>
+
+</resources>

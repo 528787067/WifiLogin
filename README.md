@@ -1,0 +1,2 @@
+#WifiLogin<br/>
+该app用于破解海大电信宽度对路由器的限制，使用该app可以让路由器成功登录上wifi进行wifi共享

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="40dip"
+    android:paddingRight="40dip" >
+
+    <LinearLayout
+        android:id="@+id/input_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/username_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/input_text_username" />
+
+            <EditText
+                android:id="@+id/username_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:hint="@string/input_edit_username"
+                android:inputType="text"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:singleLine="true"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/password_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/input_text_password" />
+
+            <EditText
+                android:id="@+id/password_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:hint="@string/input_edit_password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:singleLine="true"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/input_mac"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/mac_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/input_text_mac" />
+
+            <EditText
+                android:id="@+id/mac_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:hint="@string/input_edit_mac"
+                android:inputType="text"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:singleLine="true"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

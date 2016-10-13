@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        layout="@layout/topbar" />
+
+    <include
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/image" />
+
+    <include
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/input" />
+
+    <TextView
+        android:id="@+id/runtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_normal"
+        android:text="@string/login"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/login_about"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/login_about"
+        android:textColor="@android:color/secondary_text_dark"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+</LinearLayout>
